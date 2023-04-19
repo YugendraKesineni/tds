@@ -3,8 +3,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-st.write("""This app gives largest number from given three input numbers""")
-st.header('MAX AMONG THREE NUMBERS')
+st.write("""Find the largest among the 3 given numbers(value greater than the other two)""")
+st.header('Input the Three numbers you want')
 def user_input_features():
     first_number = st.number_input("Enter the first number",step=1)
     second_number = st.number_input("Enter the second number",step=1)

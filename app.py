@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 st.write("""This app gives largest number from given three input numbers""")
-st.header('User Input Parameters')
+st.header('MAX AMONG THREE NUMBERS')
 def user_input_features():
     first_number = st.number_input("Enter the first number",step=1)
     second_number = st.number_input("Enter the second number",step=1)
